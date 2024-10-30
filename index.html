@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileFirst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+   
+    <header>
+        <img src="https://placehold.co/50" id="logo">
+
+        <img src="https://placehold.co/468x200" id="header-banner">
+        <img src="https://placehold.co/768x200" id="header-bannerTablet">
+        <img src="https://placehold.co/1200x200" id="header-bannerPc">
+    </header>
+
+    <nav>
+        <nav id="myMainNav" class="main-nav">
+            <div class="nav-boxes"> <a href="">Link 1 </a></div>
+            <div class="nav-boxes"> <a href="">Link 2 </a></div>
+            <div class="nav-boxes"> <a href="">Link 3 </a></div>
+            <button class="icon" onclick="myFunction();"><i class="fa fa-bars"></i></button>
+        </nav>
+    </nav>
+
+    <main>
+        <img src="https://placehold.co/250" id="main-banner">
+        <div id="main-bannerRight"> <img src="https://placehold.co/300x800"> </div>
+        <img src="https://placehold.co/768x250" id="main-bannerTablet">
+        <img src="https://placehold.co/1200x250" id="main-bannerPc">
+
+        <img src="https://placehold.co/150x20" id="main-offer">
+        <img src="https://placehold.co/250x50" id="main-offerTablet">
+
+        <img src="https://placehold.co/200" id="main-banner2">
+    <div id="main-banner2Tablet">
+        <img src="https://placehold.co/250x200" >    
+        <img src="https://placehold.co/250x200" >
+    </div>
+    <div id="main-banner2Tablet">
+        <img src="https://placehold.co/250x200" >    
+        <img src="https://placehold.co/250x200" >
+    </div>
+    
+   
+   
+    </main>
+
+    <footer>
+        <img src="https://placehold.co/468x100" id="footer">   
+        <img src="https://placehold.co/768x100" id="footerTablet">   
+        <img src="https://placehold.co/1200x100" id="footerPc">   
+    </footer>
+
+    <script>
+        function myFunction() {
+             var x = document.getElementById("myMainNav");
+             if (x.className === "main-nav") {
+                 x.className += " responsive"; // Adds "responsive" class without removing the existing one
+             } else {
+                 x.className = "main-nav"; // Resets to original class if "responsive" is present
+             }
+         }
+     </script>
+
+</body>
+</html>
