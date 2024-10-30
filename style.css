@@ -7,7 +7,7 @@
 }
 body{
     width:468px;
-    height:auto;
+    height:800px;
 }
 header{
     width:100%;
@@ -36,6 +36,7 @@ nav{
     margin-right:800px;
     position:absolute;
     display:flex;
+    
 }
 .main-nav.responsive{
     position:relative;
@@ -68,6 +69,7 @@ main{
 }   
 #main-banner{
     margin-top:2em;
+    margin-right: 3em;
     display:flex;
     justify-self: center;
 }
@@ -88,6 +90,7 @@ main{
 }
 #main-offer{
     margin-top:2em; 
+    margin-right: 3em;
     display:flex;
     justify-self: center;
 }
@@ -109,7 +112,7 @@ footer{
 
 
 
-@media screen and (min-width: 468px){
+@media screen and (min-width: 469px){
 #header-banner{
     display: none;
 }
@@ -180,7 +183,7 @@ nav a{
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     #header-bannerTablet{
         display: none;
     }
