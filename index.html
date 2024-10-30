@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileFirst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+   
+    <header>
+    <img src="https://placehold.co/50" id="logo">
+    <img src="https://placehold.co/468x200">
+    </header>
+    <nav>
+        <nav id="myMainNav" class="main-nav">
+            <div class="nav-boxes"> <a href="https://placehold.co/468x200"></a> </div>
+            <div class="nav-boxes"> <a href="https://placehold.co/468x200"></a> </div>
+            <div class="nav-boxes"> <a href="https://placehold.co/468x200"></a> </div>
+            <button class="icon" onclick="myFunction();"><i class="fa fa-bars"></i></button>
+        </nav>
+    </nav>
+    <main>
+    <img src="https://placehold.co/250" id="main-banner">
+    <img src="https://placehold.co/150x20" id="main-offer">
+    <img src="https://placehold.co/200" id="main-banner2">
+    </main>
+    <footer>
+    <img src="https://placehold.co/468x100" id="footer">   
+    </footer>
+
+    <script>
+        function myFunction() {
+             var x = document.getElementById("myMainNav");
+             if (x.className === "main-nav") {
+                 x.className += " responsive"; // Adds "responsive" class without removing the existing one
+             } else {
+                 x.className = "main-nav"; // Resets to original class if "responsive" is present
+             }
+         }
+     </script>
+
+</body>
+</html>
